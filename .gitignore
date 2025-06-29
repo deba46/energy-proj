@@ -1,0 +1,7 @@
+# Ignore all files under data/
+data/**
+
+# But don't ignore the folders themselves
+!data/
+!data/**/
+**/.DS_Store
